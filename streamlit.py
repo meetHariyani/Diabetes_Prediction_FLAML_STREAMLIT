@@ -1,3 +1,4 @@
+pip install joblib
 import joblib  # For loading pickle file.
 import pandas as pd # For dataframe usage
 import streamlit as st #to create Streamlit Webapp.
@@ -171,7 +172,7 @@ predictInput = {
 input = pd.DataFrame(predictInput,index=[0])
 
 # Loading pickle file.
-MLmodel = joblib.load('C:/Users/meeth/Desktop/model_local.pkl')
+MLmodel = joblib.load('https://github.com/meetHariyani/Diabetes_Prediction_FLAML_STREAMLIT/blob/main/model_local.pkl')
 
 # Predicting result using pre trained model.
 prediction = MLmodel.predict(input).astype(str)
