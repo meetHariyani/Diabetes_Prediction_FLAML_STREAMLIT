@@ -1,4 +1,3 @@
-pip install joblib
 import joblib  # For loading pickle file.
 import pandas as pd # For dataframe usage
 import streamlit as st #to create Streamlit Webapp.
