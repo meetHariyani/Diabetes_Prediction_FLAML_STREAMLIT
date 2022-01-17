@@ -13,3 +13,6 @@ Trained Model is deployed using streamlit Webapp.
 - Streamlit
 - FLAML
 - Joblib
+
+## Access Webapp
+https://share.streamlit.io/meethariyani/diabetes_prediction_flaml_streamlit/main/streamlit.py
