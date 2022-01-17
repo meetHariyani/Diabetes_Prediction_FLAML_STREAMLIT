@@ -171,8 +171,7 @@ predictInput = {
 input = pd.DataFrame(predictInput,index=[0])
 
 # Loading pickle file.
-MLmodel = joblib.load('https://github.com/meetHariyani/Diabetes_Prediction_FLAML_STREAMLIT/blob/b13272fd1566f65acacaad874b4fd2a5f8262fd9/model_local.pkl
-')
+MLmodel = joblib.load('https://github.com/meetHariyani/Diabetes_Prediction_FLAML_STREAMLIT/blob/b13272fd1566f65acacaad874b4fd2a5f8262fd9/model_local.pkl')
 
 # Predicting result using pre trained model.
 prediction = MLmodel.predict(input).astype(str)
